@@ -1,0 +1,214 @@
+body{
+    margin : 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main-header{
+    padding: 30px 100px;
+    height: 100%;
+    max-height: 800vh;
+    width : 100%;
+    background-image: url('../img/back.png');
+    background-size : cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: rgb(28, 165, 219, 0.3);
+    color : #ffffff;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.main-content{
+    display: grid;
+    grid-template-columns: 60% 50%;
+    margin-top: 80px;
+}
+
+.main-content .content{
+    padding-top: 0px;
+    padding-right: 100px;
+}
+
+.main-content .content h3 {
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+
+.main-content .content p{
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 1.7rem;
+    letter-spacing: 0.5px;
+    color : #f2f2f2;
+}
+
+
+.main-content .content a{
+    display: inline-block;
+    padding: 15px 40px;
+    text-align: center;
+    background-color : #000000;
+    border-radius: 50px;
+    color : #ffffff;
+    text-decoration: none;
+    margin-top : 20px;
+    letter-spacing: 1px;
+}
+
+
+
+.image{
+    margin-bottom: -50px;
+}
+
+.image img {
+    width : 70%;
+    height : calc(700px - 150px);
+    margin : auto;
+}
+
+
+nav {
+    width : 100%;
+    display: grid;
+    grid-template-columns: 30% auto;
+    padding: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color : #ffffff;
+    font-weight: bolder;
+    font-size: 25px;
+    margin: auto 0;
+    text-transform: uppercase;
+}
+
+
+nav ul{
+    padding: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li{
+    list-style: none;
+    margin : 0px 20px;
+}
+
+nav ul li:last-child{
+    margin-right : 0px;
+    border : 2px solid #ffffff;
+    padding: 10px 20px;
+    margin-top : -10px;
+    border-radius: 50px;
+    transition: 0.4s ease;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color : #ffffff;
+    font-size: 17px;
+}
+
+
+nav li:last-child:hover{
+    background-color: #ffffff;
+    color : #000000;
+}
+
+nav li:last-child:hover a{
+    color : #000000;
+}
+
+
+
+/* section activity  */
+
+#activity{
+    padding: 30px 200px;
+    position: relative;
+    height : 95vh;
+    max-height: 100vh;
+    background-image: url('../img/iphoneX_Angle.png');
+    background-size : contain;
+    background-position: 45% 0px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+#activity .col-1{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    padding-right: 126px;
+    width: 25%;
+}
+
+#activity .col-2{
+    position: absolute;
+    top: 60%;
+    right: 4%;
+    padding-right: 126px;
+    width: 25%;
+}
+
+#activity .col-1 h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 1.6rem;
+}
+
+#activity .col-2 h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 1.6rem;
+}
+
+#activity i{
+    color : rgb(30, 185, 247);
+}
+
+#activity a{
+    display: inline-block;
+    text-align: center;
+    padding: 8px 15px;
+    color : #f2f2f2;
+    background-color: rgb(30, 185, 247);
+    text-decoration: none;
+    margin-top : 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+footer{
+    height: 150px;
+    background-color: #1a1919;
+    text-align: center;
+    color : #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p:first-child{
+    margin: 40px;
+    margin-bottom: 5px;
+}
+
+footer p i{
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+footer p i:hover {
+    color : rgb(30, 185, 247);
+}
+
+
+
